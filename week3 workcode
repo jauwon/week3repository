@@ -1,0 +1,45 @@
+let ages = [3, 9, 23, 64, 2, 8, 28, 93] 
+  ages.push([22]); 
+
+ages.splice(ages[3] - ages.length);
+function findaverage(ages) {
+    let average = 0;
+for(let i = 0; i <= ages.length; i++); {
+    let currentNum = ages[i]
+    average += currentNum;
+}
+average = average/names.length
+return average;
+
+}
+
+
+let names = ["Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"]
+function findaverage(names) {
+    let average = 0;
+for(let i = 0; i < names.length; i++){
+    let currentNum = names[i]
+    average += currentNum;
+}
+average = average/names.length
+return average;
+}
+    
+
+let nameLengths = [3,5,3,5,4,3]
+for(let i = 0; i <= nameLengths.length; i++);{
+    console.log(nameLengths)
+}
+
+function greet( word) {
+    console.log(word + n);
+}
+greet("John");
+greet("Mary");
+
+
+
+function friend (firstName) {
+    myFriend = lastName;
+}
+console.log(firstName + lastName);
