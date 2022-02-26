@@ -1,7 +1,11 @@
-let ages = [3, 9, 23, 64, 2, 8, 28, 93] 
-  ages.push([22]); 
+let ages = [3, 9, 23, 64, 2, 8, 28, 93] ;
+console.log(ages[ages.length-1] - ages[0]);
+ 
+ages.push([22]); 
+console.log(ages[ages.length-1] - ages[0]);
 
-ages.splice(ages[3] - ages.length);
+
+
 function findaverage(ages) {
     let average = 0;
 for(let i = 0; i <= ages.length; i++); {
@@ -43,3 +47,23 @@ function friend (firstName) {
     myFriend = lastName;
 }
 console.log(firstName + lastName);
+
+function concatSelf(word,n) {
+    concat = "";
+    for(let i = 0; i <= n-1; i++) {
+concat += word;
+    }
+return concat;
+}
+console.log(concatSelf("Hello", 3));
+
+function(numArray) {
+    let sum = 0;
+    for(let i = 0; i < numArray.length; i++) {
+        sum += numArray[i];
+    } if (sum >100) {
+        return true;
+    } else{
+        return false;
+    }
+}
